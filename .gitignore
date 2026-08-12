@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# runtime outputs
+results/
+paths/*.csv
+!paths/.gitkeep
+
+# editor / agent noise
+.specstory/
+.cursor/
+.cursorindexingignore
+.vscode/
+*.swp
+.DS_Store
