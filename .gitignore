@@ -6,13 +6,10 @@ venv/
 
 # runtime outputs
 results/
-paths/*.csv
-!paths/.gitkeep
+paths/
+path_result.zip
+paths_result.zip
 
-# editor / agent noise
-.specstory/
-.cursor/
-.cursorindexingignore
-.vscode/
-*.swp
-.DS_Store
+# dotfiles / editor / agent
+.*
+!.gitignore
